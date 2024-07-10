@@ -5,8 +5,8 @@ function fibonacci(num) {
         return 1;
     return fibonacci(num - 1) + fibonacci(num - 2);
 }
-console.log("Fibonacci(3): " + fibonacci(3)); //result is Fibonacci(5): 1
-console.log("Fibonacci(12): " + fibonacci(12)); // result is Fibonacci(8): 89
+console.log("Fibonacci(3): " + fibonacci(3)); //result is Fibonacci(3): 1
+console.log("Fibonacci(12): " + fibonacci(12)); // result is Fibonacci(12): 89
 
 function* fibonacciGen(num) {
     let num1 = 0;
@@ -29,7 +29,7 @@ function dennis (num) {
     return result;
 }
 
-console.log("Fibonacci(5): " + dennis(5)); // result is Fibonacci(8): 13
+console.log("Fibonacci(5): " + dennis(5)); // result is Fibonacci(5): 3
 console.log("Fibonacci(8): " + dennis(8)); // result is Fibonacci(8): 13
 
 function fibonacci(num) {

@@ -4,7 +4,7 @@ const isPrime = num => {
     return ![...Array(num).keys()].slice(2).some(i => num % i === 0);
 }
 
-console.log(isPrime(1)); // true
+console.log(isPrime(1)); // false
 console.log(isPrime(5)); // true
 console.log(isPrime(8)); // false
 console.log(isPrime(19)); // true
@@ -23,8 +23,8 @@ function checkPrime(num) {
     else
         console.log(num + " is not prime");
 }
-checkPrime(3); // 3 is prime
-checkPrime(14);//14 is not prime
+checkPrime(3); // 3  is a prime number.
+checkPrime(14);//14  is not a prime number.
 
 function checkPrime(num){
     let res = true;
@@ -46,4 +46,4 @@ function checkPrime(num){
     }
 }
 checkPrime(22); //22 is not a prime number.
-checkPrime(17);//17  is a prime number.
+checkPrime(17);//17 is a prime number.

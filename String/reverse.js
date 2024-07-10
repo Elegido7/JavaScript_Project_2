@@ -1,6 +1,6 @@
-let student = 'James, Mercy, Agnes, Brain, Daniel, Jane, Paul';
+let student = 'John, Mercy, Nancy, Brain, Ava, Jane, Paul, Zelipha';
 let splitstudent = student.split(',')
-console.log(splitstudent.reverse()); //[' Paul', ' Jane', ' Daniel', ' Brain', ' Agnes',  ' Mercy', 'James']
+console.log(splitstudent.reverse()); //[' Zelipha', ' Paul', ' Jane', ' Ava', ' Brain', ' Nancy', ' Mercy', 'John']
   
 let student1 = 'James, Mercy, Agnes, Brain, Daniel, Jane, Paul';
 let splitstudent1 = student1.split(',') 

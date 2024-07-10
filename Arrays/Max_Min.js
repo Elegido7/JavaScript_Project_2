@@ -35,7 +35,7 @@ let minValue = den.reduce((acc, current) => Math.min(acc, current));
 let maxValue = den.reduce((acc, current) => Math.max(acc, current));
 
  console.log("Minimum element is:" + minValue); //result is Minimum element is:15
- console.log("Minimum element is:" + maxValue); //result is Minimum element is:85
+ console.log("Maximum element is:" + maxValue); //result is Maximum element is:85
 
  const trophies = [20, 12, 25, 16, 8, 22, 14];
 

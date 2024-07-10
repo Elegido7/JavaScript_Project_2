@@ -21,7 +21,7 @@ function factor(num) {
   }
   console.log(factor(6)); // result is 720
 
-  let n = 5; 
+  let n = 10; 
 
   function factorial(n) { 
       let ans = 1; 
@@ -33,5 +33,5 @@ function factor(num) {
       return ans; 
   }
   
-  console.log(factorial(n));
+  console.log(factorial(n)); // result is 3628800
   
