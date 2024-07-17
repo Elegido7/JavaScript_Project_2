@@ -1,20 +1,13 @@
-const publish = "gomyCode";
-const capitalizedPrint = publish[0].toUpperCase() + publish.substring(1);
-console.log(capitalizedPrint); //result is GomyCode
-
-const gadget= "computer power";
-const capitalizedResult = gadget[0].toUpperCase() + gadget.substring(1);
-console.log(capitalizedResult);//result is Computer power
-
-function Letter() {
-    let string = 'mambosawa';
-    console.log(string[0].toUpperCase() + string.slice(1));
+function Letter(string) {    
+    return string[0].toUpperCase() + string.slice(1);
 }
-Letter(); //result is Mambosawa
+
+console.log(Letter('mambosawa')); //result is Mambosawa
+
+let matunda ='pineapple';
 
 function fruit() {
-    let string = 'pineapple';
-    console.log(string.charAt(0).toUpperCase() +
-        string.slice(1));
+    return matunda.charAt(0).toUpperCase() +
+        matunda.slice(1);
 }
-fruit() //result is Pineapple
+console.log(fruit) //result is Pineapple

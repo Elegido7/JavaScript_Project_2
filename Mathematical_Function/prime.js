@@ -1,15 +1,3 @@
-const isPrime = num => {
-    if (num <= 1) return false;
-    if (num === 2) return true;
-    return ![...Array(num).keys()].slice(2).some(i => num % i === 0);
-}
-
-console.log(isPrime(1)); // false
-console.log(isPrime(5)); // true
-console.log(isPrime(8)); // false
-console.log(isPrime(19)); // true
-console.log(isPrime(25)); // false
-
 function checkPrime(num) {
     let i, flag = true;
     for (i = 2; i <= num - 1; i++) {

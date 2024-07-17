@@ -1,13 +1,28 @@
-function factorialize(num) {
+let n = 10; 
+function findFactor(n) { 
+  let ans = 1; 
+  
+  if(n === 0)
+      return 1;
+  for (let i = 2; i <= n; i++) 
+      ans = ans * i; 
+  return ans; 
+}
+
+console.log(findFactor(n)); // result is 3628800
+
+
+function hesabu(num) {
     if (num < 0) 
           return -1;
     else if (num == 0) 
         return 1;
     else {
-        return (num * factorialize(num - 1));
+        return (num * hesabu(num - 1));
     }
   }
-  console.log(factorialize(3));// result is 6
+  console.log(hesabu(3));// result is 6
+
 
 function factor(num) {
     var result = num;
@@ -21,17 +36,5 @@ function factor(num) {
   }
   console.log(factor(6)); // result is 720
 
-  let n = 10; 
-
-  function factorial(n) { 
-      let ans = 1; 
-      
-      if(n === 0)
-          return 1;
-      for (let i = 2; i <= n; i++) 
-          ans = ans * i; 
-      return ans; 
-  }
   
-  console.log(factorial(n)); // result is 3628800
   

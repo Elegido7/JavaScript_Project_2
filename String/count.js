@@ -1,8 +1,11 @@
-const firstname = "Dennis";
+function FirstName(firstname) {
+    return firstname.length;
+}
+console.log(FirstName("Eavesdropping")); // result is 13
+ 
 
-console.log (firstname.length); // result is 6
+function getWordLength(longword) {
+    return longword.length;
+}
 
-
-var word = "pneumonoultramicroscopicsilicovolcanoconiosis";
-
-console.log (word.length);// result is 45
+console.log(getWordLength('pneumonoultramicroscopicsilicovolcanoconiosis')); // result is 45
