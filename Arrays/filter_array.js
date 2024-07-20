@@ -13,3 +13,4 @@ function filterItems(arr, query) {
 
 console.log(filterItems(fruit, 'p')); // result is [ 'apple', 'grapes', 'pears' ]
 console.log(filterItems(fruit, 'an')); // result is [ 'banana', 'oranges', 'mango' ]
+
